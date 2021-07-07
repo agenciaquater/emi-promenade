@@ -1,0 +1,36 @@
+.container {
+    background: var(--gray-500);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+
+        margin-bottom: 100px;
+
+        color: var(--gray-700);
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-top: 60px;
+
+        color: var(--gray-700)
+    }
+
+    @media (max-width: 720px) {
+        p {
+            width: 90%;
+            font-size: 1.25rem;
+        }           
+    }
+}

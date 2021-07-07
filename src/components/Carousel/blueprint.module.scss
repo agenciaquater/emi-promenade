@@ -1,0 +1,71 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        max-width: 1520px;
+    
+        .content {
+            max-width: 1024px;
+            display: flex;
+            justify-content: center;
+    
+            margin: 0 50px;
+        
+            .embla {
+                overflow: hidden;
+            
+                .embla__container {
+                    display: flex;
+            
+                    .embla__slide {
+                        position: relative;
+                        flex: 0 0 100%;
+        
+                        img {
+                            width: 1024px;
+                            height: 360px;
+
+                            @media (max-width: 720px) {
+                                width: 367px;
+                                height: 135px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 720px) {
+                max-width: 367px;
+                margin: 0;
+            }
+        }
+
+        .arrow {
+            @media (max-width: 720px) {
+                display: none;
+            }
+        }
+
+        .arrow:hover {
+            cursor: pointer;
+        }
+    }
+
+    .dashGroup {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+
+        .responsiveArrow {
+            @media (min-width: 720px) {
+                display: none;
+            }
+        }
+    }
+}
