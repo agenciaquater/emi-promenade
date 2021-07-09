@@ -24,13 +24,21 @@ export function Footer() {
                     </div>
 
                     <div className={styles.links}>
-                        <a href="/">
+                        <a 
+                            href="https://www.instagram.com/emiempreendimentos/" 
+                            target="_blank">
                             <img src="/images/instagram-icon.webp" alt="instagram" />
                         </a>
-                        <a href="/">
+
+                        <a
+                          href="https://www.facebook.com/Emiempreendimentos/"
+                          target="_blank">
                             <img src="/images/facebook-icon.webp" alt="facebook" />
                         </a>
-                        <a href="/">
+
+                        <a
+                          href="https://api.whatsapp.com/send?phone=5551999637844&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20condom%C3%ADnio%20residencial%20Promenade!"
+                          target="_blank">
                             <img src="/images/wpp-icon.webp" alt="whatsapp" />
                         </a>
                     </div>

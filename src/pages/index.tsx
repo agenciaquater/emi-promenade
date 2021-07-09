@@ -19,8 +19,8 @@ export default function Home() {
     <div className={styles.wrapper}>
 
       <NextSeo 
-        title="Condomínio Promenade"
-        description="Trabalhamos há mais de 15 anos com excelência em pós-operatório de cirurgias plásticas. Aqui você tem qualidade de vida e conforto durante sua reabilitação."
+        title="Condomínio Residencial Promenade"
+        description="Condomínio muito bem localizado no bairro Santana de Porto Alegre, com infraestrutura perfeita para seu conforto, lazer e segurança."
         canonical=""
       />
 

@@ -32,17 +32,19 @@ export function AboutSection() {
                             <h2>A 10 MINUTOS DA <br /> REDENÇÃO</h2>
                         </div>
 
-                        <ul>
-                            <div className={styles.listSpan}>Apartamentos de 65 até 68m²</div>
-                            <div className={styles.listSpan}>2 Dormitórios</div>
-                            <div className={styles.listSpan}>Vagas de Garagem</div>
-                            <li>Salão de Festas</li>
-                            <li>Espaço Fitness</li>
-                            <li>Lavanderia Condominial</li>
-                            <li>Espaço Multiuso</li>
-                            <li>Terraço Panorâmico</li>
-                            <li>Portaria 24h</li>
-                        </ul>
+                        <div className={styles.listItems}>
+                            <ul>
+                                <div className={styles.listSpan}>Apartamentos de 65 até 68m²</div>
+                                <div className={styles.listSpan}>2 Dormitórios</div>
+                                <div className={styles.listSpan}>Vagas de Garagem</div>
+                                <li>Salão de Festas</li>
+                                <li>Espaço Fitness</li>
+                                <li>Lavanderia Condominial</li>
+                                <li>Espaço Multiuso</li>
+                                <li>Terraço Panorâmico</li>
+                                <li>Portaria 24h</li>
+                            </ul>
+                        </div>
                     </div>
                 </main>
 

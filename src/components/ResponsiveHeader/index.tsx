@@ -12,12 +12,12 @@ export function ResponsiveHeader() {
             <div className={styles.content}>
                 <img src="/images/emi-logo-gray.webp" alt="EMI" />
 
-                <Link to="/">
+                <a href="https://api.whatsapp.com/send?phone=5551999637844&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20condom%C3%ADnio%20residencial%20Promenade!">
                     <div className={styles.contactUs}>
                             <p>Fale conosco</p>
                             <AiOutlineWhatsApp size={20}/>
                     </div>
-                </Link>
+                </a>
 
                 <button 
                     className={styles.headerButton}
