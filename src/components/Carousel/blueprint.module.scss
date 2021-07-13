@@ -26,14 +26,12 @@
                     .embla__slide {
                         position: relative;
                         flex: 0 0 100%;
+                        text-align: center;
         
                         img {
-                            width: 1024px;
-                            height: 360px;
-
                             @media (max-width: 720px) {
                                 width: 367px;
-                                height: 135px;
+                                height: 200px;
                             }
                         }
                     }
