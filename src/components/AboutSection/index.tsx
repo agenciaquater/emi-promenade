@@ -23,7 +23,7 @@ export function AboutSection() {
 
             <div className={styles.specsContainer}>
                 <main>
-                    <img src="/images/interior-img-1.webp" id={styles.interior} alt="interior img" />
+                    <img src="/images/interior-img-1.png" id={styles.interior} alt="interior img" />
 
                     <div className={styles.list}>
                         <div className={styles.listTitle}>
