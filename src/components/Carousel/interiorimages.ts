@@ -11,4 +11,10 @@ export const interiorImages = [
     {
         image: '/images/interior-img-5.png'
     },
+    {
+        image: '/images/interior-img-6.png'
+    },
+    {
+        image: '/images/interior-img-7.png'
+    },
 ]
