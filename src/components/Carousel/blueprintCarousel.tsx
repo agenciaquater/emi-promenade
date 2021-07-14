@@ -47,8 +47,10 @@ export function BlueprintCarousel() {
                         <div className={styles.embla} ref={emblaRef}>
                             <div className={styles.embla__container}>
                                 { blueprintImages.map(img => (
-                                    <div key={img.image} className={styles.embla__slide}>
+                                    <div key={img.text} className={styles.embla__slide}>
                                         <img src={img.image} alt="image" />
+                                        
+                                        <p>{img.text}</p>
                                     </div>
                                 )) }
                             </div>

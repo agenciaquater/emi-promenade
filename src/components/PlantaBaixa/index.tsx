@@ -8,7 +8,6 @@ export function PlantaBaixa() {
         <div className={styles.container} id="blueprints">
             <h1>PLANTA BAIXA</h1>
             <BlueprintCarousel/>
-            <p>Planta baixo dos apartamentos com final 02 (70m²) privativos</p>
         </div>
     )
 }
