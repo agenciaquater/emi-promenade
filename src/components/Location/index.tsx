@@ -34,8 +34,10 @@ export function Location() {
                 center={center}
                 zoom={18}
                 tilt={0}
-                mapTypeId="satellite"
-            >
+                options={{
+                  mapTypeId: "hybrid",
+                  streetViewControl: true,
+                }}>
                 <Marker position={{lat: -30.0511878, lng: -51.2040852}} />
 
                 <InfoWindow 
