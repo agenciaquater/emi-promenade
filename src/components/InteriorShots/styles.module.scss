@@ -4,4 +4,10 @@
     display: flex;
     justify-content: center;
     padding: 100px 0;
+
+    @media(max-width: 720px){
+        background: var(--white);
+        padding: 0;
+        padding-top: 20px;
+    }
 }

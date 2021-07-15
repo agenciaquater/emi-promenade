@@ -9,6 +9,7 @@ import styles from './blueprint.module.scss'
 import { blueprintImages } from './blueprintImages'
 
 import { ActiveSlideButton } from '../ActiveSlideButton'
+import { ActiveSlideDots } from '../ActiveSlideDots'
 
 export function BlueprintCarousel() {
     const [selectedIndex, setSelectedIndex] = useState(0)
@@ -62,12 +63,23 @@ export function BlueprintCarousel() {
             <div className={styles.dashGroup}>
                 <AiOutlineLeft color="#2C2C2C" size={30} onClick={scrollPrev} className={styles.responsiveArrow}/>
 
-                { blueprintImages.map((img, i) => (
-                    <ActiveSlideButton 
-                        key={img.image}
-                        isActive={i === selectedIndex} 
-                        onClick={() => scrollTo(i)}/>
-                )) }
+                <div className={styles.dashes}>
+                    { blueprintImages.map((img, i) => (
+                        <ActiveSlideButton 
+                            key={img.image}
+                            isActive={i === selectedIndex} 
+                            onClick={() => scrollTo(i)}/>
+                    )) }
+                </div>
+
+                <div className={styles.dots}>
+                    { blueprintImages.map((img, i) => (
+                        <ActiveSlideDots
+                            key={img.image}
+                            isActive={i === selectedIndex} 
+                            onClick={() => scrollTo(i)}/>
+                    )) }
+                </div>
 
                 <AiOutlineRight color="#2C2C2C" size={30} onClick={scrollNext}  className={styles.responsiveArrow}/>
             </div>

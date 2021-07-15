@@ -8,6 +8,7 @@ import styles from './interior.module.scss'
 import { interiorImages } from './interiorimages'
 
 import {ActiveSlideButton} from '../ActiveSlideButton'
+import {ActiveSlideDots} from '../ActiveSlideDots'
 import { ResponsiveArrows } from './ResponsiveArrows'
 
 export function InteriorCarousel() {
@@ -60,12 +61,23 @@ export function InteriorCarousel() {
             <div className={styles.dashGroup}>
                 <AiOutlineLeft color="#2C2C2C" size={30} onClick={scrollPrev} className={styles.responsiveArrow}/>
 
-                { interiorImages.map((img, i) => (
-                    <ActiveSlideButton 
-                        key={img.image}
-                        isActive={i === selectedIndex} 
-                        onClick={() => scrollTo(i)}/>
-                )) }
+                <div className={styles.dashes}>
+                    { interiorImages.map((img, i) => (
+                        <ActiveSlideButton 
+                            key={img.image}
+                            isActive={i === selectedIndex} 
+                            onClick={() => scrollTo(i)}/>
+                    )) }
+                </div>
+
+                <div className={styles.dots}>
+                    { interiorImages.map((img, i) => (
+                        <ActiveSlideDots
+                            key={img.image}
+                            isActive={i === selectedIndex} 
+                            onClick={() => scrollTo(i)}/>
+                    )) }
+                </div>
 
                 <AiOutlineRight color="#2C2C2C" size={30} onClick={scrollNext}  className={styles.responsiveArrow}/>
             </div>

@@ -11,19 +11,19 @@ export function AboutSection() {
                         
                         <p>Morar no Promenade é estar mais perto. É poder chegar antes em casa, e sair mais tarde para o trabalho. É viver perto de tudo e ter mais tempo para si. Localizado na Monsenhor Veras 115, faz esquina com rua Gomes Jardim, no bairro Santana.</p>
 
-                        <p>O prédio conta com salão de festas, espaço fitness e lavanderia condominial, todos equipados e decorados. Além disso, na parte de lazer, também há um espaço multiuso e um terraço panorâmico.
-                        As medições de água e gás são individuais. Em questão de segurança, há portaria com circuito de câmeras e guarita de segurança com lavabo.</p>
+                        <p>O prédio conta com salão de festas, espaço fitness, lavanderia condominial e vestiário para diaristas, todos equipados e mobiliados. Além disso, na parte de lazer, também há um espaço multiuso mobiliado e um terraço panorâmico.
+                        As medições de água e gás são individuais. Em questão de segurança, há portaria virtual com circuito de câmeras e guarita de segurança com lavabo.</p>
 
                         <p>Nosso compromisso é construir com foco na satisfação dos clientes, na sustentabilidade e na qualidade do produto, através da confiança em seus funcionários e parceiros, buscando melhorar continuamente seus processos. </p>
 
-                        <h2>HÁ MAIS DE 40 ANOS VOCÊ PODE CONTAR COM A QUALIDADE DA EMI.</h2>
+                        <h2>HÁ 45 ANOS VOCÊ PODE CONTAR COM A QUALIDADE DA EMI.</h2>
                     </div>
                 </div>
             </div>
 
             <div className={styles.specsContainer}>
                 <main>
-                    <img src="/images/interior-img-1.png" id={styles.interior} alt="interior img" />
+                    <img src="/images/exterior-shot.webp" id={styles.exterior} alt="exterior img" />
 
                     <div className={styles.list}>
                         <div className={styles.listTitle}>
@@ -41,8 +41,9 @@ export function AboutSection() {
                                 <li>Espaço Fitness</li>
                                 <li>Lavanderia Condominial</li>
                                 <li>Espaço Multiuso</li>
+                                <li>Vestiário para diaristas</li>
                                 <li>Terraço Panorâmico</li>
-                                <li>Portaria 24h</li>
+                                <li>Portaria Virtual</li>
                             </ul>
                         </div>
                     </div>
