@@ -4,6 +4,8 @@ import styles from './styles.module.scss'
 export function AboutSection() {
     return (
         <>
+            <div className={styles.sideDash}></div>
+
             <div className={styles.aboutContainer} id="about">
                 <div className={styles.content}>
                     <div className={styles.aboutText}>

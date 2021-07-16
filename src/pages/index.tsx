@@ -60,7 +60,13 @@ export default function Home() {
       <AbsoluteHeader />
       <AboutSection />
       <InteriorShots />
+      
+      <div className={styles.sideDash1}></div>
+
       <PlantaBaixa />
+
+      <div className={styles.sideDash2}></div>
+
       <Location />
       <Footer />
     </div>
