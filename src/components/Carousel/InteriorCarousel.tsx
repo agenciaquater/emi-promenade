@@ -43,7 +43,7 @@ export function InteriorCarousel() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <AiOutlineLeft color="#2C2C2C" size={50} onClick={scrollPrev} className={styles.arrow}/>
+                <AiOutlineLeft color="#3333" size={50} onClick={scrollPrev} className={styles.arrow}/>
                     <div className={styles.content}>
                         <div className={styles.embla} ref={emblaRef}>
                             <div className={styles.embla__container}>
@@ -55,7 +55,7 @@ export function InteriorCarousel() {
                             </div>
                         </div>
                     </div>
-                <AiOutlineRight color="#2C2C2C" size={50} onClick={scrollNext} className={styles.arrow}/>
+                <AiOutlineRight color="#3333" size={50} onClick={scrollNext} className={styles.arrow}/>
             </div>
 
             <div className={styles.dashGroup}>

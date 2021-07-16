@@ -11,7 +11,7 @@ interface ActiveSlideButtonProps {
 export function ActiveSlideButton({onClick, isActive}: ActiveSlideButtonProps) {
     return (
         <button onClick={onClick} className={styles.btn}>
-            <BsDash size={50} color={isActive ? "#2C2C2C" : "#626262"} />
+            <BsDash size={50} color={isActive ? "#626262" : "#3333"} />
         </button>
     )
 }

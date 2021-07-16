@@ -21,7 +21,20 @@ export default function Home() {
       <NextSeo 
         title="Condomínio Residencial Promenade"
         description="Condomínio muito bem localizado no bairro Santana de Porto Alegre, com infraestrutura perfeita para seu conforto, lazer e segurança."
-        canonical=""
+        canonical="https://promenade.emiempreendimentos.com.br/"
+        openGraph={{
+          url: 'https://promenade.emiempreendimentos.com.br/',
+          title: 'Condomínio Residencial Promenade',
+          description: 'O melhor endereço de apartamentos de 80m² a 103m² com 2 ou 3 suítes, áreas condominiais e de lazer no bairro Santana, a 2 minutos do Parque da Redenção.',
+          images: [
+            {
+              url: '/images/home-bg-webp',
+              width: 800,
+              height: 600,
+              alt: 'Condomínio Residencial Promenade',
+            }
+          ]
+        }}
       />
 
       <Head>
