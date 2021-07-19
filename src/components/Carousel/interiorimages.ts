@@ -27,18 +27,18 @@ export const interiorImages = [
         image: '/images/interior-img-6.webp'
     },
     {
-        image: '/images/interior-img-7.webp'
+        image: '/images/interior-img-8.webp'
     },
     {
-        image: '/images/interior-img-8.webp'
+        image: '/images/exterior-img-2.webp'
     },
     {
         image: '/images/interior-img-11.webp'
     },
     {
-        image: '/images/exterior-img.webp'
+        image: '/images/interior-img-7.webp'
     },
     {
-        image: '/images/exterior-img-2.webp'
+        image: '/images/exterior-img.webp'
     },
 ]
