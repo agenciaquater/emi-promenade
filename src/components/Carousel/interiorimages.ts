@@ -35,4 +35,10 @@ export const interiorImages = [
     {
         image: '/images/interior-img-11.webp'
     },
+    {
+        image: '/images/exterior-img.webp'
+    },
+    {
+        image: '/images/exterior-img-2.webp'
+    },
 ]
