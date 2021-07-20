@@ -50,7 +50,7 @@ export default function Home() {
           <div className={styles.introductionText}>
             <img src="/images/promenade-logo.webp" alt="on the park"/>
 
-            <h3><span>APARTAMENTOS DE 65m² ATÉ 68m² COM 2 DORMITÓRIOS NO BAIRRO SANTANA.</span></h3> 
+            <h3><span>APARTAMENTOS DE 65m² ATÉ 68m² COM 2 DORMITÓRIOS <br />NO BAIRRO SANTANA.</span></h3> 
           </div>
 
           <MainForm />

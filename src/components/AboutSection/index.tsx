@@ -18,7 +18,7 @@ export function AboutSection() {
 
                         <p>Nosso compromisso é construir com foco na satisfação dos clientes, na sustentabilidade e na qualidade do produto, através da confiança em seus funcionários e parceiros, buscando melhorar continuamente seus processos. </p>
 
-                        <h2>HÁ 45 ANOS VOCÊ PODE CONTAR COM A QUALIDADE DA EMI.</h2>
+                        <h2>HÁ 45 ANOS VOCÊ PODE CONTAR COM <br /> A QUALIDADE DA EMI.</h2>
                     </div>
                 </div>
             </div>
