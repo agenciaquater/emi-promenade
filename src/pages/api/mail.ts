@@ -1,11 +1,8 @@
 import mail from '@sendgrid/mail'
 import { NextApiRequest, NextApiResponse  } from 'next';
 
-const APIKEY = process.env.NEXT_PUBLIC_SENDGRID_API_KEY
-// const APIKEY = 'kdjflçsdkfçasldkfjasçdfk'
-
 try{
-  mail.setApiKey(`${APIKEY}`);
+  mail.setApiKey(`${process.env.NEXT_PUBLIC_SENDGRID_API_KEY}`);
 } catch(err){
   console.log('pedrao')
 }
@@ -16,9 +13,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
       const msg = {
           to: 'pedro@quater.rs',
-          from: 'noreply@noreply.com',
-          subject: ``,
-          html: ``,
+          from: 'noreply@emiempreendimentos.com.br',
+          subject: `teste promenade`,
+          html: `<h1>pedaroo</h1>`,
         };
       
       await mail.send(msg)
