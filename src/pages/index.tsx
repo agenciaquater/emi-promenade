@@ -9,6 +9,7 @@ import { ResponsiveHeader } from '../components/ResponsiveHeader'
 import { AboutSection } from '../components/AboutSection'
 import { InteriorShots } from '../components/InteriorShots'
 import { PlantaBaixa } from '../components/PlantaBaixa'
+import { VirtualTour } from '../components/VirtualTour'
 import { Location } from '../components/Location'
 import { Footer } from '../components/Footer'
 
@@ -67,6 +68,7 @@ export default function Home() {
 
       <div className={styles.sideDash2}></div>
 
+      <VirtualTour />
       <Location />
       <Footer />
     </div>
