@@ -21,8 +21,10 @@ export function MainForm(){
         resolver: yupResolver(schema)
     })
 
+    const APIKEY = process.env.NEXT_PUBLIC_SENDGRID_API_KEY
+
     async function onSubmit(data: FormDataProps) {
-        console.log(data)
+        console.log(APIKEY)
         
         const response = await fetch('/api/mail', {
             method: 'POST',
