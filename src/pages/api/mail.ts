@@ -10,10 +10,10 @@ try{
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const msg = {
     to: 'pedro@quater.rs',
-    from: 'teste@emiempreendimentos.com.br', // Use the email address or domain you verified above
-    subject: 'Sending with Twilio SendGrid is Fun',
-    text: 'and easy to do anywhere, even with Node.js',
-    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+    from: 'noreply@emiempreendimentos.com.br', // Use the email address or domain you verified above
+    subject: 'teste promenade',
+    text: 'mensagem de teste',
+    html: '<strong>pedraooooo</strong>',
   };
   try {
     await mail.send(msg);
