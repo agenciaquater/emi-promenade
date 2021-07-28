@@ -50,6 +50,8 @@ export function InteriorCarousel() {
                                 { interiorImages.map(img => (
                                     <div key={img.image} className={styles.embla__slide}>
                                         <img src={img.image} alt="image" />
+
+                                        <p>{img.text}</p>
                                     </div>
                                 )) }
                             </div>
