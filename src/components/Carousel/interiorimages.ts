@@ -28,10 +28,6 @@ export const interiorImages = [
         text: 'Quarto 1'
     },
     {
-        image: '/images/interior-img-8.webp',
-        text: 'Quarto 1'
-    },
-    {
         image: '/images/exterior-img-2.webp',
         text: 'Vista do quarto 1'
     },
