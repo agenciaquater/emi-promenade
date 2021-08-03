@@ -8,24 +8,20 @@ export const interiorImages = [
         text: 'Hall de entrada'
     },
     {
-        image: '/images/interior-img-2.webp',
-        text: 'Sala de jantar'
+        image: '/images/img-sala.webp',
+        text: 'Sala de estar'
     },
     {
         image: '/images/interior-img-10-5.webp',
         text: 'Cozinha'
     },
     {
-        image: '/images/interior-img-3.webp',
-        text: 'Sala de estar'
-    },
-    {
-        image: '/images/interior-img-9.webp',
+        image: '/images/img-cozinha-1.webp',
         text: 'Cozinha'
     },
     {
-        image: '/images/interior-img-6.webp',
-        text: 'Quarto 1'
+        image: '/images/img-cozinha-2.webp',
+        text: 'Cozinha'
     },
     {
         image: '/images/interior-img-6-5.webp',
