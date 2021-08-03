@@ -14,8 +14,13 @@ import { Location } from '../components/Location'
 import { Footer } from '../components/Footer'
 
 import styles from '../styles/Home.module.scss'
+import { GetServerSideProps } from 'next'
 
-export default function Home() {
+interface IndexProps {
+  apikey: string;
+}
+
+export default function Home({apikey}: IndexProps) {
   return (
     <div className={styles.wrapper}>
 
@@ -69,8 +74,18 @@ export default function Home() {
       <div className={styles.sideDash2}></div>
 
       <VirtualTour />
-      <Location />
+      <Location apikey={apikey} />
       <Footer />
     </div>
   )
+}
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  const apikey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+  
+  return {
+    props: {
+      apikey,
+    }
+  }
 }
