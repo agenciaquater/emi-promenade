@@ -12,6 +12,10 @@ export const interiorImages = [
         text: 'Sala de estar'
     },
     {
+        image: '/images/exterior-img.webp',
+        text: 'Vista da sala de estar'
+    },
+    {
         image: '/images/interior-img-10-5.webp',
         text: 'Cozinha'
     },
@@ -42,9 +46,5 @@ export const interiorImages = [
     {
         image: '/images/interior-img-7.webp',
         text: 'Quarto 2'
-    },
-    {
-        image: '/images/exterior-img.webp',
-        text: 'Vista do quarto 2'
     },
 ]
