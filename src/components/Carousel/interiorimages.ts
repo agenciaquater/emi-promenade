@@ -8,28 +8,32 @@ export const interiorImages = [
         text: 'Hall de entrada'
     },
     {
+        image: '/images/img-salao.webp',
+        text: 'Salao de festas'
+    },
+    {
+        image: '/images/img-coworking.webp',
+        text: 'Espaço multiuso'
+    },
+    {
+        image: '/images/img-lavenderia.webp',
+        text: 'Lavanderia condominal'
+    },
+    {
         image: '/images/img-sala.webp',
-        text: 'Sala de estar'
+        text: 'Modelo sala de estar apto final 01'
     },
     {
         image: '/images/exterior-img.webp',
         text: 'Vista da sala de estar'
     },
     {
-        image: '/images/interior-img-10-5.webp',
-        text: 'Cozinha'
-    },
-    {
         image: '/images/img-cozinha-1.webp',
         text: 'Cozinha'
     },
     {
-        image: '/images/img-cozinha-2.webp',
-        text: 'Cozinha'
-    },
-    {
         image: '/images/interior-img-6-5.webp',
-        text: 'Quarto 1'
+        text: 'Modelo quarto de casal apto final 01'
     },
     {
         image: '/images/exterior-img-2.webp',
@@ -37,10 +41,6 @@ export const interiorImages = [
     },
     {
         image: '/images/interior-img-11.webp',
-        text: 'Quarto 2'
-    },
-    {
-        image: '/images/interior-img-7.webp',
-        text: 'Quarto 2'
+        text: 'Modelo quarto de solteiro apto final 01'
     },
 ]
