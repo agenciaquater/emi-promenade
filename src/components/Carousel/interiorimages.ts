@@ -16,7 +16,7 @@ export const interiorImages = [
         text: 'Espaço multiuso'
     },
     {
-        image: '/images/img-lavenderia.webp',
+        image: '/images/img-lavanderia.webp',
         text: 'Lavanderia condominal'
     },
     {
