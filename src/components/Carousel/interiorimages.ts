@@ -9,7 +9,7 @@ export const interiorImages = [
     },
     {
         image: '/images/img-salao.webp',
-        text: 'Salao de festas'
+        text: 'Salão de festas'
     },
     {
         image: '/images/img-coworking.webp',
