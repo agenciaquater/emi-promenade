@@ -1,8 +1,16 @@
 import {useForm} from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+import * as gtag from '../../utils/gtag'
 
 import styles from './styles.module.scss';
+
+const generateLeadEvent = {
+    action: 'generate_lead_promenade',
+    category: 'engagement',
+    label: 'Submissão de dados pessoais no formulário',
+    value: 1
+}
 
 interface FormDataProps {
     name: string;
@@ -32,6 +40,10 @@ export function MainForm(){
         });
 
         if(response.status == 200) {
+            if (process.env.NODE_ENV === 'production') {
+                gtag.event(generateLeadEvent)
+            }
+
             reset()
             alert('Sua solicitação foi enviada! Nossa equipe entrará em contato com você!')
         }
