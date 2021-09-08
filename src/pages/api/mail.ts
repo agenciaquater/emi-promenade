@@ -11,7 +11,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const body = JSON.parse(req.body)
 
   const msg = {
-    to: 'comercial@emiempreendimentos.com.br',
+    to: ['comercial@emiempreendimentos.com.br', 'dev@agenciaquater.com.br'],
     from: 'comercial@emiempreendimentos.com.br',
     subject: `Nova solicitação de atendimento`,
     html: `<h1>${body.name} requisitou atendimento</h1>
