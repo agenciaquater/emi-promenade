@@ -11,7 +11,7 @@ export function Footer() {
 
             <main>
                 <div className={styles.contactInfo}>
-                    <img src="/images/eim-logo-white.webp" alt="emi" />
+                    <img src="/images/emi-logo-white.webp" alt="emi" />
                     
                     <div className={styles.contacts}>
                         <p>Rua Vieira de Castro, 179 Sala 205 <br />
