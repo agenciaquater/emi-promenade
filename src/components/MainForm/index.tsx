@@ -1,3 +1,4 @@
+import {useRouter} from 'next/router'
 import {useForm} from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
@@ -25,6 +26,8 @@ const schema = yup.object().shape({
 })
 
 export function MainForm(){
+    const router = useRouter()
+
     const {register, handleSubmit, formState: {errors}, reset} = useForm({
         resolver: yupResolver(schema)
     })
@@ -45,7 +48,7 @@ export function MainForm(){
             }
 
             reset()
-            alert('Sua solicitação foi enviada! Nossa equipe entrará em contato com você!')
+            router.push('/obrigado')
         }
         else{
             reset()
