@@ -35,8 +35,8 @@ export function MainForm(){
     const APIKEY = process.env.NEXT_PUBLIC_SENDGRID_API_KEY
 
     async function onSubmit(data: FormDataProps) {
-        console.log(APIKEY)
-        
+        reset();
+         
         const response = await fetch('/api/mail', {
             method: 'POST',
             body: JSON.stringify(data)
@@ -47,11 +47,9 @@ export function MainForm(){
                 gtag.event(generateLeadEvent)
             }
 
-            reset()
             router.push('/obrigado')
         }
         else{
-            reset()
             alert('Falha na solicitação!')
         }
     }
